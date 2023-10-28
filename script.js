@@ -3,7 +3,7 @@ function decimalToBinary(num) {
 
 	while(num>=2){
       let rem= num%2;
-		output=output+rem;
+		output=rem+ output;
 		num = parseInt(num/2);
 		
 	}
@@ -16,4 +16,4 @@ function decimalToBinary(num) {
   
 }
 
-window.decimalToBinary = decimalToBinary;
+window.decimalToBinary = decimalToBinary
